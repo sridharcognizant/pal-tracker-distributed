@@ -4,5 +4,7 @@ applications:
   host: registration-pal-SM
   memory: 1G
   instances: 1
+  env:
+     REGISTRATION_SERVER_ENDPOINT: http://registration-pal-SM.apps.chicken.pal.pivotal.io
   services:
   - tracker-registration-database
