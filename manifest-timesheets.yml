@@ -1,7 +1,7 @@
 applications:
 - name: tracker-timesheets
   path: ./applications/backlog-server/build/libs/backlog-server.jar
-  host: backlog-pal-INITIALS
+  host: backlog-pal-SM1234
   memory: 1G
   instances: 1
   env:
