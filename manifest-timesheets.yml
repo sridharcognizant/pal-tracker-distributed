@@ -1,7 +1,7 @@
 applications:
 - name: tracker-timesheets
   path: ./applications/backlog-server/build/libs/backlog-server.jar
-  host: backlog-pal-SM1234
+  host: timesheets-pal-sm1
   memory: 1G
   instances: 1
   env:
@@ -9,7 +9,7 @@ applications:
     SECURITY_USER_NAME: actuator
     SECURITY_USER_PASSWORD: operations4red
   services:
-  - tracker-backlog-database
+  - tracker-timesheets-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
   - tracker-amqp
